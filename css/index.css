@@ -1,0 +1,112 @@
+/* CSS Color Theme
+    Dark Grey: #202224
+    Medium Grey: #70757D
+    Light Grey: #F0F5FD
+    Dark Blue: #5276B0
+    Light Blue: #E2ECFD
+*/
+
+html{
+    margin:0;
+    padding:0;
+    height:100%;
+}
+
+body{
+    min-height:100%;
+    position:relative;
+    padding:0px;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 18px;
+}
+p {
+    font-family: 'Titillium Web', sans-serif;
+    color: #202224;
+}
+
+a{
+    color: #202224;
+}
+a:hover {
+    color: #0084B8;
+}
+
+.display-5{
+    text-transform: uppercase;
+}
+.custom-navbar {
+    background-color: #F4D03F;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+.nav-link {
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+}
+
+.navbar-brand {
+    font-family: 'Dosis', sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+
+.jumbotron{
+    background: transparent;
+}
+.page-title{
+    text-align: center;
+}
+
+#main-footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:60px;
+    padding-top:10px;
+    margin-top: 30px;
+    background-color: #F0F5FD;
+    color: #2B2B2D;
+    box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.2);
+ }
+
+.footer-left{
+    text-align: left;
+}
+
+.footer-right{
+    text-align: right;
+}
+
+@media only screen and (max-width:768px){
+    body{
+        min-height: 100vh;
+    }
+    footer{
+        position: relative;
+        bottom: -20px;
+        margin-top: 50px;
+    }
+    .footer-left{
+        text-align: center;
+        margin: 10px 0px 10px 0px;
+    }
+
+    .footer-right{
+        text-align: center;
+    }
+    #main-footer {
+        padding-top:0px;
+        height:100px;
+    }
+}
+
+.social-media-icon{
+    margin: 0px 10px 0px 10px;
+    font-size: 50px;
+}
+
+.card-title{
+    font-weight: bold;
+}
