@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
+        crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/contact.css">
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="icon" href="./img/logo.png" type="image/gif" sizes="16x16">
+</head>
+
+<body>
+    <!-- Nav Bar -->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light custom-navbar" s>
+        <a class="navbar-brand" href="./home.html">
+            <img src="./img/logo.png" width="40" height="40" class="d-inline-block align-top" alt="">
+            PAGINA WEB PERSONAL
+          </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+            aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+        <div class="collapse navbar-collapse ml-auto" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item ml-auto">
+                    <a class="nav-link" href="./home.html">HOME</a>
+                </li>
+                <li class="nav-item ml-auto">
+                    <a class="nav-link" href="./informacion.html">INFORMACION</a>
+                </li>
+                <li class="nav-item ml-auto">
+                    <a class="nav-link" href="./cursos.html">CURSOS</a>
+                </li>
+                <li class="nav-item ml-auto">
+                    <a class="nav-link" href="#">BLOG</a>
+                </li>
+                <li class="nav-item ml-auto active">
+                    <a class="nav-link" href="./contact.html">CONTACTO</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- /Nav Bar -->
+    <div class="jumbotron">
+        <div class="container">
+            <h1 class="display-5 page-title">Contactame</h1>
+            <p class="lead page-title">Gracias por visitar mi pagina web, para contactarme llene el siguiente formato:</p>
+            <hr>
+        </div>
+    </div>
+    <form class="container contact-box" action="https://formspree.io/nguyenhobaotran@gmail.com"
+      method="POST">
+        <div class="row justify-content-md-center">
+            <div class="col-sm-6">
+                <div class="form-group">
+                    <label for="recipient-name">Tu nombre:</label>
+                    <input type="text" class="form-control" id="recipient-name" name="name" placeholder="Ejemplo:Daniel Izquierdo">
+                </div>
+                <div class="form-group">
+                    <label for="recipient-email">Tu correo:</label>
+                    <input type="email" class="form-control" id="recipient-email" name="email" placeholder="Ejemplo:daniel@gmail.com">
+                </div>
+                <div class="form-group">
+                    <label for="subject">Asunto:</label>
+                    <input type="text" class="form-control" id="subject" name="_subject" placeholder="Ejemplo: Oferta Laboral">
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <label for="contact-message">Mensaje:</label>
+                <textarea class="form-control" id="contact-message" rows="10" name="message" placeholder="Escribe aqui tu mensaje..."></textarea>
+            </div>
+            <hr>
+            <input class="btn btn-primary" type="submit" value="Enviar">
+            <input type="text" name="_gotcha" style="display:none" />
+            <input type="hidden" name="_next" value="direccion.github.com" />
+        </div>
+    </form>
+
+    <!-- Footer -->
+    <div style="min-height:120px;"></div>
+    <div id="main-footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 footer-left">
+
+                </div>
+                <div class="col-md-6 footer-right">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /Footer -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
+        crossorigin="anonymous"></script>
+    <script src="https://use.fontawesome.com/5aba09376f.js"></script>
+    <!-- Vue JS -->
+    <script src="https://unpkg.com/vue"></script>
+    <!-- Custom JS -->
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
